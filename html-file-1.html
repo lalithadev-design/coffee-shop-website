@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fac54f0bd8.js" crossorigin="anonymous"></script>
+
+    <style>
+        .image-1 {
+            width: 75px;
+            height: 75px;
+            border-radius: 50px;
+        }
+        .nav_bg-color{
+            background-color: transparent;
+        }
+        .coffe_design{
+            color: #fdfbfa;
+            font-family: serif;
+            text-shadow: black;
+            font-style: italic;
+            font-weight: 100;
+            margin: 0px;
+        }
+        .web_bg_img{
+            background-image: url("https://www.nsbpictures.com/wp-content/uploads/2020/04/sunset-hd-background-photos-12-scaled.jpg");
+            background-size: cover;
+            height: auto;
+            padding: auto;
+            
+        }
+        .Nav_items{
+            color:  rgb(109, 59, 39);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        
+        }
+        .head_sty{
+            color:  rgb(109, 59, 39);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+        
+        }
+        .nav_leftauto{
+            margin-left: auto;
+        }
+        .search_bar{
+            border-radius: 20px;
+            width:300px;
+            padding: 5px;
+            border-color: rgb(245, 62, 16);
+            border-style: solid;
+            border-width: 3px;
+        }
+        .icon_img{
+            width: 50px;
+            height: 50px;
+            color: black;
+        }
+        .section_bgimg{
+            background-image: url("https://i.pinimg.com/736x/6c/fb/66/6cfb665f142a6c00be4f98b0f30165fa.jpg");
+            background-size: cover;
+            width: 95%;
+            border-radius: 5px;
+            padding: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section_heading{
+            color: aliceblue;
+            font-family: fantasy;
+            font-size: 60px;
+        }
+        .coloring{
+            color: rgb(255, 80, 11);
+        }
+        .leaf-1{
+            height: 20px;
+            width: 20px;
+            background-color:  rgb(255, 80, 11);
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .leaf-2{
+            height: 20px;
+            width: 20px;
+            background-color:  rgb(255, 80, 11);
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .btn_styles-1{
+            background-color: rgb(255, 80, 11);
+            color: #fdfbfa;
+            font-weight: 600;
+            border-radius: 20px;
+            width: 150px;
+            margin: 10px;
+            margin-right: 50px;
+        }
+        .btn_styles-1:hover,.btn_styles-2:hover{
+            color: #fdfbfa;
+        }
+        
+        .btn_styles-2{
+            border-color: rgb(255, 80, 11);
+            border-width: 2px;
+            border-style: solid;
+            background-color: transparent;
+            color: #fdfbfa;
+            font-weight: 600;
+            border-radius: 20px;
+            width: 150px;
+            margin: 10px;
+            margin-left: 50px;
+        }
+        .card-1{
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .card-1:hover{
+            transform: scale(1.1);
+            transition: 2s;
+              
+        }
+        .Nav_items:hover{
+             transform: scale(1.1);
+             transition: 2s;
+             color: rgb(255, 80, 11);
+
+        }
+        
+        .img_s{
+            width: 100%;
+            height: 190px;
+        }
+        .card_p{
+            font-weight: 700;
+        }
+        .marquee_edit{
+            color: #fdfbfa;
+            font-family: monospace;
+            font-size: 30px;
+            width: 300px;
+            
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid web_bg_img" >
+        <div class="row">
+               <div class=" col-md-12 col-lg-12 col-sm-12 mb-4">
+            <nav class="navbar navbar-expand-lg  nav_bg-color ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/736x/78/76/0b/78760b3423fcbb2b3e3bbf06f980a12e.jpg" class="image-1"> </a>
+                    <h1 class="coffe_design">Coffee&nbsp; </h1>
+                    <div class="d-flex flex-column ">
+                        <div class="leaf-1"></div>  
+                    <div class="leaf-2"></div>
+                    </div>
+                     
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse Order-sm-md-2" id="navbarNavAltMarkup ">
+                    <div class="navbar-nav nav_leftauto mb-0">
+                        <a class="nav-link Nav_items m-3 " aria-current="page" href="">Home</a>
+                        <a class="nav-link Nav_items m-3" href="#">Menu</a>
+                        <a class="nav-link Nav_items m-3" href="#">About</a>
+                        <a class="nav-link Nav_items m-3" href="#">Contact Us</a>
+                        <a class="nav-link Nav_items m-3" href="#">Pages</a>
+                        
+                    </div>
+                    </div>
+                    <form class="Order-md-sm-1">
+                        <input type="search" placeholder="Search"  class="search_bar mr-4" >   
+                        <i class="fa-solid fa-magnifying-glass"></i>                  
+                    </form>
+                    <a><div class="icon_img"><i class="fa-solid fa-magnifying-glass"></i></div></a>
+                   
+                </div>
+            </nav>
+            
+               </div>
+               <div class="  col-md-12 col-lg-12 col-sm-12 section_bgimg  shadow w-50%">
+                     <div class="d-flex flex-column justify-content-end mt-5">
+                         <div>
+                        <h1 class="section_heading p-5"> <span class="coloring">G</span>eT Y<span class="coloring">O</span>uR... <br> &emsp; &emsp; <span class="coloring">h</span>O<span class="coloring">mE</span> Co<span class="coloring">FF</span>e<span class="coloring">e</span></h1>
+                     </div>
+                     </div>
+                     <div class="d-flex flex-row">
+                        <div >
+                        <button class="btn btn_styles-1"> Order Now </button>
+                     </div>
+                     <div>
+                        <button class="btn btn_styles-2"> Our Menu </button>
+                     </div>
+                     </div>
+                     <div class="d-flex flex-row justify-content-center">
+                        <div><marquee class="marquee_edit">50% Discount... </marquee></div>
+                     </div>
+               </div>
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card card-1 shadow m-2" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?cs=srgb&dl=pexels-chevanon-302899.jpg&fm=jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title head_sty">Cappuccino coffee</h5>
+                    <p class="card-text card_p">Rs.180</p>
+                    <a href="#" class="btn btn_styles-1">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card card-1 shadow m-2 " style="width: 18rem;">
+                <img src="https://thumbs.dreamstime.com/b/hot-americano-coffee-bubbles-clear-glass-wooden-table-hot-americano-coffee-bubbles-clear-glass-170349943.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title head_sty">Americano coffee</h5>
+                    <p class="card-text card_p">Rs.160</p>
+                    <a href="#" class="btn btn_styles-1">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card card-1 shadow m-2" style="width: 18rem;">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png?quality=90&resize=556,505" class="card-img-top img_s" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title head_sty">Mocha coffee</h5>
+                    <p class="card-text card_p">Rs.200</p>
+                    <a href="#" class="btn btn_styles-1">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card card-1 shadow m-2" style="width: 18rem;">
+                <img src="https://www.thespruceeats.com/thmb/9S62tUo57EiVNFSi_SiGcj2aypk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/flat-white-recipe-765371-hero-01-d3378484dc6044259ac75c49407097ec.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title head_sty">Flat white coffee</h5>
+                    <p class="card-text card_p">Rs.210</p>
+                    <a href="#" class="btn btn_styles-1">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <!--<div>
+                <marquee class="marquee_edit">50% Discount </marquee>
+            </div> -->
+            
+        </div>
+        
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+  </body>
+</html>
